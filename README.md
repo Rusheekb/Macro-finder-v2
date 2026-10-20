@@ -34,6 +34,10 @@ Adding an item is a one-liner using the per-restaurant helper in that file. The 
 
 Sodium and sugar are small penalties in every goal so a "high protein" pick with 2000 mg sodium ranks below an equally lean option.
 
+## Live site
+
+Every push to the deploy branch publishes the app to GitHub Pages via `.github/workflows/deploy.yml`. The build uses `BASE_PATH=/Macro-finder-v2/` so assets resolve under the repository subpath.
+
 ## Development
 
 ```bash

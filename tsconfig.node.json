@@ -7,7 +7,7 @@
     "strict": true,
     "skipLibCheck": true,
     "noEmit": true,
-    "types": ["vitest/config"]
+    "types": ["vitest/config", "node"]
   },
   "include": ["vite.config.ts"]
 }
